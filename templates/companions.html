@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Directions Service</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Road Trip</title>
+<meta name="keywords" content="car, trips, companions" />
+<meta name="description" content="Website for searching trip companions" />
+<link href="../static/css/default.css" rel="stylesheet" type="text/css" />
+     
+    <link rel="stylesheet" href="../static/css/buttons.css">
+    <link rel="stylesheet" href="../static/css/table.css">
+<script type="text/javascript" src="../static/script.js"> </script>
+<link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" >
+    <script src="{{ url_for('static', filename='script.js') }}" type="text/javascript"></script>
+ 
+  </head>
+
+<body>
+<div id="header">
+  <div id="logo">
+  <img src="../static/images/logo.png">
+    
+  <div id="block">
+    <h1>Road Trip</h1>
+	</div>
+	</div>
+
+ 
+  <div id="menu">
+    <ul>
+      <li class="active"><a href="index.html">Home</a></li>
+      
+      <li><a href="routes.html">Routes</a></li>
+      <li><a href="companions.html">Companions</a></li>
+      <li><a href="https://www.startit.lv/">Forum</a></li>
+      <li><a href="https://www.startit.lv/">Contacts</a></li>
+    </ul>
+  </div>
+</div>
+  <div id="page">
+  <div id="content">
+    <div style="margin-bottom: 20px;">
+	 <div class="content">
+     
+      <div class="content_wrapper">
+	  
+          <div id="searching" class="boxed">
+		 <h2><b>Companions</b></h2>
+		
+        
+  <div id="message" class="boxed"></div>
+         </div>
+	
+
+     <!-- table <table id="myTable"> -->   
+         <table id="saraksts">
+      <thead>
+        <td>Name</td>
+        <td>Surname</td>
+        <td>Phone Number</td>
+      </thead>
+      <tbody id="dati-draugi">
+      </tbody>
+    </table>     
+      </div>
+    </div>
+	
+    </div>
+	      
+       
+    <div id="map"></div>
+	</div>
+  
+  <!-- end content -->
+  <div id="sidebar">
+
+	 <div id="login" class="boxed">
+      <h2 class="title">Sign in to Your Account</h2>
+      <div class="content">
+        <form id="loginform" method="get" action="">
+          <fieldset>
+		  <h3>Username</h3>
+          <input id="logininput" type="text"  name="logininput" value="" />
+		  <h3>Password</h3>
+		  <input id="loginpassword" type="text"  name="loginpassword" value="" />
+          <input id="loginsubmit" type="submit" value="Login" />
+          <p><a href="https://www.startit.lv/">Forget Password?</a></p>
+          </fieldset>
+       
+      </div>
+	  </div>
+	  
+	  
+    
+	                                   
+	
+    <div id="news" class="boxed">
+      <h2 class="title">News &amp; Events</h2>
+      <div class="content">
+        <ul>
+          <li class="first">
+            <h3>02 February 2020</h3>
+            <p><a href="http://www.balttour.lv/?link=10000000">Balttour 2020</a></p>
+          </li>
+          <li>
+            <h3>29 September 2020</h3>
+            <p><a href="https://www.tripadvisor.com/Attractions-g274960-Activities-Latvia.html">Top Attractions in Latvia&hellip;</a></p>
+          </li>
+          <li>
+            <h3>10 Oktober 2020</h3>
+            <p><a href="http://web-mastery.info/">Popular Cities in Latvia&hellip;</a></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- end sidebar -->
+  <div style="clear: both;">&nbsp;</div>
+</div>
+
+<!-- end page -->
+<div id="footer">
+  <p id="legal">2020 Road Trip. All Rights Reserved.</p></div>
+  
+   <script src="{{ url_for('static', filename='script.js') }}" type="text/javascript"></script> 
+
+</body>
+</html>

@@ -1,4 +1,4 @@
-	:root {
+:root {
   /* Neutral */
   --neutral-900:  #263238;
   --neutral-800:  #37474F;
@@ -52,8 +52,6 @@ p, ol, ul {
 	line-height: 170%;
 }
 
-p {
-}
 
 ol {
 	margin-left: 0;
@@ -69,7 +67,6 @@ ul {
 
 ul li {
 	padding-left: 15px;
-	background: url(../images/img07.gif) no-repeat 0px 7px;
 }
 
 blockquote {
@@ -78,8 +75,6 @@ blockquote {
 	font-style: italic;
 }
 
-blockquote * {
-}
 
 a {
 	color: #FF5723;
@@ -201,8 +196,7 @@ hr {
 	padding-top: 8px;
 }
 
-.twocols {
-}
+
 
 .twocols .title {
 	padding-bottom: 10px;
@@ -221,8 +215,6 @@ hr {
 	float: right;
 }
 
-.twocols ul {
-}
 
 .twocols ul li {
 	padding-left: 0;
@@ -267,8 +259,6 @@ hr {
 	line-height: normal;
 }
 
-.boxed ul {
-}
 
 .boxed ul li {
 	padding: 8px 0 8px 10px;
@@ -281,8 +271,6 @@ hr {
 
 /* Login */
 
-#login {
-}
 
 #login form {
 	margin: 0;
@@ -299,7 +287,7 @@ hr {
   }
 
   #saraksts tr:hover {
-    background-color:  #90A4AE;
+    background-color: #5a7d8c8c;
   }
 
   #saraksts td, #saraksts thead {
@@ -312,7 +300,7 @@ hr {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #607d8b;
+    background-color: #6f9db3;
 	 font-weight: 400;
   font-size: 13px;
     color: white;

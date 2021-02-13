@@ -15,9 +15,7 @@ th, td {
   height: 48px;
   text-align: center;
 }
-}
 
-td { height: 56px; }
 
 tbody tr:not(:last-of-type) { border-bottom: 5px solid var(--neutral-50); }
 
@@ -30,7 +28,7 @@ tbody tr:not(:last-of-type) { border-bottom: 5px solid var(--neutral-50); }
   font-size: 15px;
   text-align: center;
 }
-}
+
 
 .content table .button:hover {
   color: var(--neutral-0);
@@ -63,7 +61,7 @@ tbody tr:not(:last-of-type) { border-bottom: 5px solid var(--neutral-50); }
   }
 
   #saraksts tr:hover {
-    background-color:  #90A4AE;
+    background-color: #5a7d8c8c;
   }
 
   #saraksts td, #saraksts thead {
@@ -76,7 +74,7 @@ tbody tr:not(:last-of-type) { border-bottom: 5px solid var(--neutral-50); }
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #607d8b;
+    background-color: #6f9db3;
 	 font-weight: 400;
   font-size: 13px;
     color: white;

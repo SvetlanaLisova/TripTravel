@@ -5,9 +5,20 @@ app = Flask(__name__)
 
 @app.route('/')
 def root():
-    return render_template('companions.html')
-           
+    return render_template('index.html')
 
+           
+@app.route('/marsruti')
+def marsruti():
+    return render_template('routes.html')
+
+@app.route('/komp')
+def komp():
+    return render_template('companions.html')
+
+
+
+     
 @app.route('/gdraugi')
 def gdraugi():
    with open('draugi.json', 'r', encoding='UTF-8') as myfile:

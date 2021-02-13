@@ -52,8 +52,6 @@ p, ol, ul {
 	line-height: 170%;
 }
 
-p {
-}
 
 ol {
 	margin-left: 0;
@@ -69,7 +67,6 @@ ul {
 
 ul li {
 	padding-left: 15px;
-	background: url(../images/img07.gif) no-repeat 0px 7px;
 }
 
 blockquote {
@@ -78,8 +75,7 @@ blockquote {
 	font-style: italic;
 }
 
-blockquote * {
-}
+
 
 a {
 	color: #FF5723;
@@ -201,8 +197,6 @@ hr {
 	padding-top: 8px;
 }
 
-.twocols {
-}
 
 .twocols .title {
 	padding-bottom: 10px;
@@ -221,8 +215,7 @@ hr {
 	float: right;
 }
 
-.twocols ul {
-}
+
 
 .twocols ul li {
 	padding-left: 0;
@@ -267,8 +260,6 @@ hr {
 	line-height: normal;
 }
 
-.boxed ul {
-}
 
 .boxed ul li {
 	padding: 8px 0 8px 10px;
@@ -281,8 +272,7 @@ hr {
 
 /* Login */
 
-#login {
-}
+
 
 #login form {
 	margin: 0;
